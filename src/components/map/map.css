@@ -1,0 +1,29 @@
+.map {
+    position: relative;
+    width: fit-content;
+}
+
+.map > img {
+    height: 100%;
+    max-height: 100vh;
+    width: 100%;
+    object-fit: contain;
+}
+.mapPoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    /*min-height: 2rem;*/
+    /*min-width: 2rem;*/
+    aspect-ratio: 1;
+    background: inherit;
+    color: inherit;
+    font-size: 14px;
+    /*transform: translate(-50%, 50%);*/
+    border: 1px solid #FF9191;
+}
+.mapPoint > span {
+    position: absolute;
+}
